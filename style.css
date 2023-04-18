@@ -1,0 +1,130 @@
+#logo{
+
+    width: 44px;
+    height: 44px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: rgb(163, 231, 208);
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    /* justify-content: end; */
+    padding: 6px;
+}
+li{
+    padding: 7px;
+    color: white;
+}
+body{
+    background-color:rgb(228, 212, 183);
+}
+nav{
+    background-color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.focus{
+
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    color: white;
+    margin: 10px;
+
+}
+#spot{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.box1{
+    padding: 15px;
+    margin: 10px;
+    margin-left: 21px;
+    background-color: #121212;
+    border-radius: 8px;
+}
+.box1 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    /* border: 2px solid black; */
+}
+.container1{
+    border: 2px solid black;
+    /* padding: 10px; */
+    background-color: #212121;
+    color: white;
+    display: flex;
+}
+
+#sidebar{
+   background-color: black;
+   padding: 1rem;
+   
+}
+.side1{
+    display: inline;
+}
+.side1 li a img{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+#sidebar li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+#sidebar li a p{
+    margin-left: 15px;
+    font-weight: 400;
+    font-family: cursive;
+}
+#sidebar li{
+    width: 175px;
+    padding: 10px;
+}
+nav button{
+
+    padding: 10px;
+    width: 200px;
+    color:white;
+    background-color: #212121;
+    font-size: 16px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+}
+#signup{
+    background-color: rgba(92, 196, 92, 0.911);
+    color: black;
+    margin-left: 53px;
+   
+}
+#signup:hover{
+    color: white;
+    background-color: #212121;
+    cursor: pointer;
+
+}
+#login:hover{
+    background-color: rgba(92, 196, 92, 0.911);
+    color: black;
+    cursor: pointer;
+
+}
